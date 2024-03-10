@@ -1,5 +1,41 @@
 # @medusajs/types
 
+## 1.11.14
+
+### Patch Changes
+
+- [#6329](https://github.com/medusajs/medusa/pull/6329) [`1fd0457c1`](https://github.com/medusajs/medusa/commit/1fd0457c153b2ef7657c052878d8e5364e1b324a) Thanks [@adrien2p](https://github.com/adrien2p)! - feat(fulfillment): Init dtos work and module service interface
+
+- [#6474](https://github.com/medusajs/medusa/pull/6474) [`ac86362e8`](https://github.com/medusajs/medusa/commit/ac86362e81d8523cb8e3dfad026fc94658513018) Thanks [@riqwan](https://github.com/riqwan)! - feat(workflows-sdk,core-flows,medusa,types): add workflow to add promotions to cart
+
+- [#6580](https://github.com/medusajs/medusa/pull/6580) [`e4acde1aa`](https://github.com/medusajs/medusa/commit/e4acde1aa2eb57f07e6692fe8b61f728948b9a96) Thanks [@riqwan](https://github.com/riqwan)! - feat(medusa,core-flows,types): add cart <> tax integration workflows + steps
+
+- [#6399](https://github.com/medusajs/medusa/pull/6399) [`339a946f3`](https://github.com/medusajs/medusa/commit/339a946f389033c21e05338f9dbf07d88e140533) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Initial Order module implementation
+
+- [#6507](https://github.com/medusajs/medusa/pull/6507) [`ac829fc67`](https://github.com/medusajs/medusa/commit/ac829fc67f7495b08f28e55923c59f0fd6320311) Thanks [@adrien2p](https://github.com/adrien2p)! - feat(fulfillment): List shipping options filtered by context and rules
+
+- [#6522](https://github.com/medusajs/medusa/pull/6522) [`0d46abf0f`](https://github.com/medusajs/medusa/commit/0d46abf0ffa4c5e03bf7d2a9cdf1db828a76bea8) Thanks [@riqwan](https://github.com/riqwan)! - feat(types): promotion module uses big number
+
+- [#6381](https://github.com/medusajs/medusa/pull/6381) [`fafde4f54`](https://github.com/medusajs/medusa/commit/fafde4f54d3ef75a7d382e6cbf94e38b3deae99b) Thanks [@adrien2p](https://github.com/adrien2p)! - feat(fulfillment): Module service implementation first iteration
+
+- [#6408](https://github.com/medusajs/medusa/pull/6408) [`1d91b7429`](https://github.com/medusajs/medusa/commit/1d91b7429beebd6f09d5027f7f7e1fe74ce3a8ff) Thanks [@adrien2p](https://github.com/adrien2p)! - feat(fulfillment): implementation part 2
+
+- [#6274](https://github.com/medusajs/medusa/pull/6274) [`1ed5f918c`](https://github.com/medusajs/medusa/commit/1ed5f918c31794a70aca4a4e4cd83cf456593baa) Thanks [@olivermrbl](https://github.com/olivermrbl)! - feat(cart): `POST /store/carts/:id`
+
+- [#6514](https://github.com/medusajs/medusa/pull/6514) [`f5c225628`](https://github.com/medusajs/medusa/commit/f5c22562867f412040f8bc6c55ab5de3a3735e62) Thanks [@riqwan](https://github.com/riqwan)! - feat(core-flows,medusa,types,utils): adds update cart API with promotions
+
+- [#6524](https://github.com/medusajs/medusa/pull/6524) [`62a7bcc30`](https://github.com/medusajs/medusa/commit/62a7bcc30cbc7b234b2b51d7858439951a84edeb) Thanks [@adrien2p](https://github.com/adrien2p)! - Feat(fulfillment): service provider registration + fulfillment management
+
+- [#6311](https://github.com/medusajs/medusa/pull/6311) [`ce39b9b66`](https://github.com/medusajs/medusa/commit/ce39b9b66e8c277ec0691ea6d0a950003be09cc1) Thanks [@olivermrbl](https://github.com/olivermrbl)! - feat(payment-stripe): new Stripe payment provider
+
+- [#6308](https://github.com/medusajs/medusa/pull/6308) [`a6a4b3f01`](https://github.com/medusajs/medusa/commit/a6a4b3f01a6d2bd97b1580c59134279a1b033a5d) Thanks [@fPolic](https://github.com/fPolic)! - feat(types, utils): payment module - provider service
+
+- [#6327](https://github.com/medusajs/medusa/pull/6327) [`4d51f095b`](https://github.com/medusajs/medusa/commit/4d51f095b3f98f468cefb760512563f7b77bb9cf) Thanks [@pKorsholm](https://github.com/pKorsholm)! - feat(core-flows, types, utils, medusa): add user endpoints to api-v2
+
+- [#6435](https://github.com/medusajs/medusa/pull/6435) [`56b0b4530`](https://github.com/medusajs/medusa/commit/56b0b4530401a6ec5aa155874d371e45bb388fe2) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - BigNumberField decorator
+
+- [#6392](https://github.com/medusajs/medusa/pull/6392) [`24fb102a5`](https://github.com/medusajs/medusa/commit/24fb102a564b1253d1f8b039bb1e435cc5312fbb) Thanks [@olivermrbl](https://github.com/olivermrbl)! - feat: CartRegion link, definition + workflow
+
 ## 1.11.13
 
 ### Patch Changes

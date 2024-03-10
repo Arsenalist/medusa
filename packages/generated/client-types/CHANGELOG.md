@@ -1,5 +1,17 @@
 # @medusajs/client-types
 
+## 0.2.10
+
+### Patch Changes
+
+- [#6606](https://github.com/medusajs/medusa/pull/6606) [`c2d56ca12`](https://github.com/medusajs/medusa/commit/c2d56ca12b89af078b885a0acced20e29bf6f8f5) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(medusa): Fixes pagination on list Tax Rate endpoint, and also adds missing query params like order, search and filters.
+
+- [#6380](https://github.com/medusajs/medusa/pull/6380) [`d37ff8024`](https://github.com/medusajs/medusa/commit/d37ff8024d8affbe84db3c0b6d79cd41016bfac4) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(medusa,ui): Fixes list query params for the following endpoints: "/admin/customers", "/admin/customer-groups", "/admin/gift-cards", and "/admin/collections".
+
+- [#6483](https://github.com/medusajs/medusa/pull/6483) [`e076590ff`](https://github.com/medusajs/medusa/commit/e076590ff2a9587d66ffdac672bdd254cb9918f1) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(medusa): Add query params to Pub. API key endpoint
+
+- [#6428](https://github.com/medusajs/medusa/pull/6428) [`44d43e815`](https://github.com/medusajs/medusa/commit/44d43e8155d1b1ca0af5e900787411c7d0b027c0) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - feat(medusa,medusa-js,medusa-react,icons): Fixes GET /admin/products/:id/variants endpoint in the core, and medusa-js and medusa-react. Pulls latest icons from Figma into `@medusajs/icons`.
+
 ## 0.2.9
 
 ### Patch Changes

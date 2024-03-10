@@ -1,5 +1,50 @@
 # @medusajs/utils
 
+## 1.11.7
+
+### Patch Changes
+
+- [#6504](https://github.com/medusajs/medusa/pull/6504) [`56cbf8811`](https://github.com/medusajs/medusa/commit/56cbf88115994adea7037c3f2814f0c96af3cfc0) Thanks [@adrien2p](https://github.com/adrien2p)! - chore(utils): Soft delete should allow self referencing circular deps
+
+- [#6473](https://github.com/medusajs/medusa/pull/6473) [`36a61658f`](https://github.com/medusajs/medusa/commit/36a61658f969a7b19c84a1e621ad1464927cafb1) Thanks [@adrien2p](https://github.com/adrien2p)! - feat(utils): Fix big number decorator and cleanup
+
+- [#6436](https://github.com/medusajs/medusa/pull/6436) [`c319edb8e`](https://github.com/medusajs/medusa/commit/c319edb8e0ecd13d086652147667916e5abab2d8) Thanks [@adrien2p](https://github.com/adrien2p)! - chore(utils): Add default ordering to the internal service factory list/listAndCount
+
+- [#6531](https://github.com/medusajs/medusa/pull/6531) [`0b9fcb632`](https://github.com/medusajs/medusa/commit/0b9fcb6324eee9f2556c7e6317775fae93b12a47) Thanks [@riqwan](https://github.com/riqwan)! - feat(utils): consolidate promotion utils + refactor
+
+- [#6525](https://github.com/medusajs/medusa/pull/6525) [`b3d826497`](https://github.com/medusajs/medusa/commit/b3d826497b3dae5e1b26b7924706c24fd5e87ca5) Thanks [@adrien2p](https://github.com/adrien2p)! - chore(utils): Improve big number decorator
+
+- [#6386](https://github.com/medusajs/medusa/pull/6386) [`a86c87fe1`](https://github.com/medusajs/medusa/commit/a86c87fe1442afce9285e39255914e01012b4449) Thanks [@pKorsholm](https://github.com/pKorsholm)! - feat(utils): make psql index util return index instead of constraint for unique indicies becuase partial constraints don't exist :'(
+
+- [#6499](https://github.com/medusajs/medusa/pull/6499) [`8ea37d03c`](https://github.com/medusajs/medusa/commit/8ea37d03c914a5004a3e42770668b2d1f7f8f564) Thanks [@riqwan](https://github.com/riqwan)! - fix(utils): bignumber util considers nullable options when setting value
+
+- [#6399](https://github.com/medusajs/medusa/pull/6399) [`339a946f3`](https://github.com/medusajs/medusa/commit/339a946f389033c21e05338f9dbf07d88e140533) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - Initial Order module implementation
+
+- [#6441](https://github.com/medusajs/medusa/pull/6441) [`8dad2b51a`](https://github.com/medusajs/medusa/commit/8dad2b51a26c4c3c14a6c95f70424c8bef2ad63e) Thanks [@riqwan](https://github.com/riqwan)! - feat(medusa-react,medusa,utils): fix login for medusa v2 admin next dashboard
+
+- [#6289](https://github.com/medusajs/medusa/pull/6289) [`a6d7070dd`](https://github.com/medusajs/medusa/commit/a6d7070dd669c21ea19d70434d42c2f8167dc309) Thanks [@riqwan](https://github.com/riqwan)! - feat(types): add util to transform get response to an update request
+
+- [#6489](https://github.com/medusajs/medusa/pull/6489) [`168f02f13`](https://github.com/medusajs/medusa/commit/168f02f138ad101e1013f2c8c3f8dc19de12accf) Thanks [@adrien2p](https://github.com/adrien2p)! - chore(util): Detect circular dependencies on soft delete
+
+- [#6514](https://github.com/medusajs/medusa/pull/6514) [`f5c225628`](https://github.com/medusajs/medusa/commit/f5c22562867f412040f8bc6c55ab5de3a3735e62) Thanks [@riqwan](https://github.com/riqwan)! - feat(core-flows,medusa,types,utils): adds update cart API with promotions
+
+- [#6592](https://github.com/medusajs/medusa/pull/6592) [`000eb61e3`](https://github.com/medusajs/medusa/commit/000eb61e33e0302db95ee6ad1656ea9b430ed471) Thanks [@riqwan](https://github.com/riqwan)! - feat(pricing,medusa,utils): added list + get endpoints for price lists
+
+- [#6524](https://github.com/medusajs/medusa/pull/6524) [`62a7bcc30`](https://github.com/medusajs/medusa/commit/62a7bcc30cbc7b234b2b51d7858439951a84edeb) Thanks [@adrien2p](https://github.com/adrien2p)! - Feat(fulfillment): service provider registration + fulfillment management
+
+- [#6396](https://github.com/medusajs/medusa/pull/6396) [`6500f18b9`](https://github.com/medusajs/medusa/commit/6500f18b9b80c5c9c473489e7e740d55dca74303) Thanks [@adrien2p](https://github.com/adrien2p)! - chore(): Prevent from soft deleting all entities
+
+- [#6311](https://github.com/medusajs/medusa/pull/6311) [`ce39b9b66`](https://github.com/medusajs/medusa/commit/ce39b9b66e8c277ec0691ea6d0a950003be09cc1) Thanks [@olivermrbl](https://github.com/olivermrbl)! - feat(payment-stripe): new Stripe payment provider
+
+- [#6308](https://github.com/medusajs/medusa/pull/6308) [`a6a4b3f01`](https://github.com/medusajs/medusa/commit/a6a4b3f01a6d2bd97b1580c59134279a1b033a5d) Thanks [@fPolic](https://github.com/fPolic)! - feat(types, utils): payment module - provider service
+
+- [#6435](https://github.com/medusajs/medusa/pull/6435) [`56b0b4530`](https://github.com/medusajs/medusa/commit/56b0b4530401a6ec5aa155874d371e45bb388fe2) Thanks [@carlos-r-l-rodrigues](https://github.com/carlos-r-l-rodrigues)! - BigNumberField decorator
+
+- [#6383](https://github.com/medusajs/medusa/pull/6383) [`e85463b2a`](https://github.com/medusajs/medusa/commit/e85463b2a717751de2e21c39a4c745449b31affe) Thanks [@adrien2p](https://github.com/adrien2p)! - chore(): Fix database test utils and utils
+
+- Updated dependencies [[`1fd0457c1`](https://github.com/medusajs/medusa/commit/1fd0457c153b2ef7657c052878d8e5364e1b324a), [`ac86362e8`](https://github.com/medusajs/medusa/commit/ac86362e81d8523cb8e3dfad026fc94658513018), [`e4acde1aa`](https://github.com/medusajs/medusa/commit/e4acde1aa2eb57f07e6692fe8b61f728948b9a96), [`339a946f3`](https://github.com/medusajs/medusa/commit/339a946f389033c21e05338f9dbf07d88e140533), [`ac829fc67`](https://github.com/medusajs/medusa/commit/ac829fc67f7495b08f28e55923c59f0fd6320311), [`0d46abf0f`](https://github.com/medusajs/medusa/commit/0d46abf0ffa4c5e03bf7d2a9cdf1db828a76bea8), [`fafde4f54`](https://github.com/medusajs/medusa/commit/fafde4f54d3ef75a7d382e6cbf94e38b3deae99b), [`1d91b7429`](https://github.com/medusajs/medusa/commit/1d91b7429beebd6f09d5027f7f7e1fe74ce3a8ff), [`1ed5f918c`](https://github.com/medusajs/medusa/commit/1ed5f918c31794a70aca4a4e4cd83cf456593baa), [`f5c225628`](https://github.com/medusajs/medusa/commit/f5c22562867f412040f8bc6c55ab5de3a3735e62), [`62a7bcc30`](https://github.com/medusajs/medusa/commit/62a7bcc30cbc7b234b2b51d7858439951a84edeb), [`ce39b9b66`](https://github.com/medusajs/medusa/commit/ce39b9b66e8c277ec0691ea6d0a950003be09cc1), [`a6a4b3f01`](https://github.com/medusajs/medusa/commit/a6a4b3f01a6d2bd97b1580c59134279a1b033a5d), [`4d51f095b`](https://github.com/medusajs/medusa/commit/4d51f095b3f98f468cefb760512563f7b77bb9cf), [`56b0b4530`](https://github.com/medusajs/medusa/commit/56b0b4530401a6ec5aa155874d371e45bb388fe2), [`24fb102a5`](https://github.com/medusajs/medusa/commit/24fb102a564b1253d1f8b039bb1e435cc5312fbb)]:
+  - @medusajs/types@1.11.14
+
 ## 1.11.6
 
 ### Patch Changes
